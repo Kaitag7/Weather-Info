@@ -15,6 +15,7 @@ export default function App() {
         fetch(url)
           .then((res) => res.json())
           .then((total) => setData(total));
+
         setLocation("");
       }
     },
