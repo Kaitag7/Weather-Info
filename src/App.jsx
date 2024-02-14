@@ -5,9 +5,9 @@ export default function App() {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
 
-  const apiKey = process.env.REACT_APP_APIKEY;
+  // const apiKey = process.env.REACT_APP_APIKEY;
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=55a4a077c95a0fc476de3f4952afc4f7`;
 
   const locationSearch = useCallback(
     (event) => {
